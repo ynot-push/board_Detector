@@ -28,7 +28,7 @@ the bounding box is represented by : x1 = left edge , y1 = top edge , x2 = right
 
 ## Dataset
 
-the screenshots in the dataset used  was synthetically generated [](generate_board_Screenshots.py) which was created by claude 😒.
+the screenshots in the dataset used  was synthetically generated [datatset_generator](generate_board_Screenshots.py) which was created by claude 😒.
 ## Results
 
 On my side training i got :
