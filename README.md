@@ -168,14 +168,7 @@ The project reports strong detection performance during training:
 
 These numbers indicate that the model is highly effective at detecting chessboards and localizing them in screenshot-based inputs.
 
-## Notes
 
-This project is useful as a focused computer vision task for web screenshot board detection. It demonstrates a practical implementation of:
-
-- binary classification + localization
-- pretrained backbones for efficient training
-- synthetic dataset generation
-- custom multi-task loss design
 
 ## License
 
