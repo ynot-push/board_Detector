@@ -151,9 +151,18 @@ python generate_board_Screenshots.py
 ## Results
 
 The project reports strong detection performance during training:
+- MobileNetV3 Large:
+  
+     - Board detection accuracy: 100%
+     - Mean IoU: ~0.991
 
-- Board detection accuracy: 100%
-- Mean IoU: ~0.97
+ - EfficientNet-B0:
+        - Board detection accuracy: 100%
+        - Mean IoU: ~0.991
+ -MobileNetV2:
+      - Board detection accuracy: 100%
+        - Mean IoU: ~0.993
+
 
 These numbers indicate that the model is highly effective at detecting chessboards and localizing them in screenshot-based inputs.
 
