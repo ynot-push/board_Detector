@@ -159,7 +159,8 @@ The project reports strong detection performance during training:
  - EfficientNet-B0:
         - Board detection accuracy: 100%
         - Mean IoU: ~0.991
- -MobileNetV2:
+   
+ - MobileNetV2:
       - Board detection accuracy: 100%
         - Mean IoU: ~0.993
 
