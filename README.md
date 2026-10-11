@@ -1,15 +1,15 @@
 # Chessboard Detector
 
-a CNN model for detecting a chessboard inside screenshots of the different online chess websites
+A CNN model for detecting chessboards in screenshots from different online chess websites.
 
 The model performs two tasks:
 
-* **Board detection:** to determines whether a chessboard is present.
-* **Bounding box regression:** predicts the location of the chessboard.
+- Board detection: determines whether a chessboard is present in the image.
+- Bounding box regression: predicts the location of the chessboard.
 
 ## Model
 
-The model is a custom CNN with two  heads:
+The model is a custom CNN with two heads:
 
 ```text
 Input Image
@@ -22,18 +22,22 @@ Input Image
      └──► Bounding Box
 ```
 
-the bounding box is represented by : x1 = left edge , y1 = top edge , x2 = right edge , y2 = bottom edge (since the the chess board is a square)
+The bounding box is represented as:
 
+- x1 = left edge
+- y1 = top edge
+- x2 = right edge
+- y2 = bottom edge
 
+Since the chessboard is square, the box corresponds to the board's full square outline.
 
 ## Dataset
 
-the screenshots in the dataset used  was synthetically generated [datatset_generator](generate_board_Screenshots.py) which was created by claude 😒.
+The screenshots in the dataset were synthetically generated using [generate_board_Screenshots.py](generate_board_Screenshots.py), which was created by Claude 😒.
+
 ## Results
 
-On my side training i got :
+On my side, training achieved:
 
-* **Board detection:** 100% accuracy
-* **Mean IoU:** ~0.97
-
-
+- Board detection accuracy: 100%
+- Mean IoU: ~0.97
